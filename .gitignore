@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Database hasil build dari data/schema.sql (dibangun ulang otomatis)
+data/*.db
+data/*.db-journal
+data/*.tmp
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
